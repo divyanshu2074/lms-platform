@@ -4,3 +4,30 @@
 * {
   font-family: "Outfit";
 }
+
+@layer utilities {
+  .text-course-heading-sm {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .text-course-heading-lg {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .text-home-heading-small {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .text-home-heading-large {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .text-base-custom {
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
